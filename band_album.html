@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+      <title>The Monkees</title>
+          <meta name="description" content="">
+          <meta name="viewport" content="width=device-width">
+          <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <style> 
+
+
+   body{
+
+   	    	padding-top: 70px;
+             background:lightgrey;
+   
+
+   }
+   p{
+    color: blue; 
+   }
+
+       h1{
+         text-align: left;
+}   
+h2{      color: red;
+         text-align: left;
+}
+table{   background-color:pink;
+
+}
+
+button{
+       background-color: pink;
+
+}
+ol{
+  background-color: pink;
+  background-position: center;
+}
+
+      footer{
+           padding-top: 5px;
+          background-color: #eee;
+          text-align: center;
+          height: 100px;
+}
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">    
+    <div class='container'>
+        <div class=" navbar-header">
+          <a class="navbar-brand" href="index.html">The Monkees</a>
+        </div>      
+                <ul  class="nav navbar-nav navbar-right  ">
+                     <li><a href="index.html">Band</a></li>
+               <li><a href="#">Album</a></li>
+               <li><a href="video.html">Media</a></li>
+               <li><a href="regist.html">Register</a></li>
+               <li><a href="https://en-gb.facebook.com/TheMonkees/"><img src="Images/fac.png" width="20px"></a></li>
+                     <li><a href="https://twitter.com/themonkees?lang=en"><img src="Images/twi.png" width="20px"></a></li>
+                     <li><a href="https://www.instagram.com/themonkees/"><img src="Images/th.jpg" width="20px"></a></li>
+                     <li><a href="https://www.youtube.com/watch?v=xvqeSJlgaNk&list=RDxvqeSJlgaNk#t=11"><img src="Images/tube.jpg" width="30px"></a></li>
+          </ul>
+        </div>
+  </nav>
+  <div class='container'>
+      <div class='row'>
+          <div class='col-md-12'>
+              <h1>ALBUM</h1>
+              <hr>
+          </div>
+          <div class="row">
+            <div class='col-md-6'>
+            <h2>More Greatest Hits of The Monkees</h2>
+            <P>The Monkees Greatest Hits  was released by Arista Records in 1976. As Monkees albums were hard to come by in the mid-1970s, and possibly due to other factors like the return of the group's TV show in syndication repeats and the activities of Dolenz, Jones, Boyce & Hart, Greatest Hits  sold well and peaked at #58 on the Billboard  chart that year. It remained in print through the 1980s, when it was treated to cassette and compact disc editions.
+            </P>
+            <img src="Images/album.jpg" width="70%"></br></br>
+            <a href="https://www.amazon.co.uk/Monkees/dp/B000024GAE"><img src="Images/amazon.png" width="35px"></a>  
+            <a href="https://itunes.apple.com/gb/artist/the-monkees/id4512388"><img src="Images/itune.png" width="33px"></br></a>
+            <button id="button1">The Songs</button></br>
+            <table class="tab1" width="350px">
+              <tr>
+              <td><h4>Side 1</h4></td>
+             <td></td>
+              <td></td>
+              <td><h4>Side 2</h4></td></tr>
+              <tr>
+              <td>Take a Giant Step</td>
+              <td></td>
+              <td></td>
+              <td>Valery</td></tr>
+              <tr>
+              <td>Mary,Mary</td>
+              <td></td>
+              <td></td>
+              <td>You Just May Be The One</td>
+              </tr>
+              <tr>
+              <td>Sometime in the Morning</td>
+              <td></td>
+              <td></td>
+              <td>The Girl I Knew Somewhere</td>
+              </tr>
+              <tr>
+              <td>Cuddly Toy</td>
+              <td></td>
+              <td></td>
+              <td>Saturday's Child</td>
+              </tr>
+              <tr>
+              <td>Randy Scouse Git</td>
+              <td></td>
+              <td></td>
+              <td>Look Out(Here Comes Tomorrow)</td>
+              </tr>
+              <tr>
+              <td>Words</td>
+              <td></td>
+              <td></td>
+              <td>For Pete'S Sake</td>
+              </tr>
+            </table>
+            </div>    
+            <div class="col-md-6"> 
+            <h2>The Very Best of The Monkees</h2>
+                <img src="Images/album2.jpg" width="70%"></br></br>   
+                <a href="https://www.amazon.co.uk/Monkees/dp/B000024GAE"><img src="Images/amazon.png" width="35px"></a>
+                <a href="https://itunes.apple.com/gb/artist/the-monkees/id4512388"><img src="Images/itune.png" width="33px"></a>
+                </br>
+                <button id="l1">Disc 1</button>
+                <ol class="list1">
+                  <li>The Monkees</li>
+                  <li>Last Train To Clarksville </br>
+                      <audio  controls>
+                      <source src="audio/Clarksville.mp3" type="audio/mp3">  
+                      </audio>     </li>
+                  <li>I'm A Believer</br>
+                  <audio controls>
+                  <source src="audio/ImABeliever.mp3" type="audio/mp3">
+                  </audio>
+                  </li>
+                  <li>"A Little Bit Me, A Little Bit You"</li>
+                  <li>Daydream Believer </br>
+                  <audio controls>
+                  <source src="audio/DaydreamBeliever.mp3" type="audio/mp3">
+                  </audio>
+                  </li>
+                  <li>(I'm Not Your) Steppin' Stone</br>
+                  <audio controls>
+                  <source src="audio/SteppingStone.mp3" type="audio/mp3">
+                  </audio>
+                  </li>
+                  <li>Randy Scouse Git</li>
+                  <li>Pleasant Valley Sunday</li>
+                  <li>Valleri</li>
+                  <li>The Girl I Knew Somewhere</li>
+                  <li>What Am I Doing Hangin' 'Round</li>
+                  <li>I Wanna Be Free</li>
+                  <li> D.W. Washburn</li>
+                  <li>"Mary, Mary"</li>
+                  <li>Shades Of Gray</li>
+                  <li>Look Out (Hers Comes Tomorrow)</li>
+                  <li>Words</li>
+                  <li>Cuddly Toy</li>
+                  <li>Tear Drop City</li>
+                  <li>Someday Man</li>
+                  <li>"Porpoise Song [Theme from ""Head""] [Single Version]"</li>
+                  <li>She</li>
+                  <li>Forget That Girl</li>
+                  <li>Listen To The Band</li>
+                </ol>
+             </div>
+       </div>
+       <hr>
+           <div class='row'>
+               <div class='col-md-12'>
+               <h1>COVER</h1>
+               <hr>
+               </div>
+               </div>
+       <div class="row">
+           <div class="col-md-3">
+              <img src="Images/cover.jpg">
+              <h4>The Greatest Hits</h4>
+           </div>        
+           <div class="col-md-3">
+              <img src="Images/cover1.jpg">
+           </div>
+           <div class="col-md-3">
+              <img src="Images/cover2.png">
+              <h4>
+           </div>
+           <div class="col-md-3">
+              <img src="Images/cover3.jpg">
+              <h4>The Monkees Facebook Cover</h4>
+           </div>
+       </div>
+       <hr>
+       <footer class="col-12">
+          <p> Copyright</p>
+          <p>@THe Monkees USA 1965/2017<p>
+          <a href="https://en-gb.facebook.com/TheMonkees/"><img src="Images/fac.png" width="20px"></a></li>
+                <a href="https://twitter.com/themonkees?lang=en"><img src="Images/twi.png" width="20px"></a></li>
+                <a href="https://www.instagram.com/themonkees/"><img src="Images/th.jpg" width="20px"></a></li>
+                <a href="https://www.youtube.com/watch?v=xvqeSJlgaNk&list=RDxvqeSJlgaNk#t=11"><img src="Images/tube.jpg" width="35px"></a></li>
+                 </footer>
+  </div>
+  </body>
+<script src='http://code.jquery.com/jquery.min.js'></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="dj_button.js"></script>
+
+ <!-- Scripts located at the bottom of the body to insure page is fully loaded before execution -->
+<script type="text/javascript" src="table_button.js"></script>
+<script type="text/javascript" src="list_button.js"></script>
+<script src='/bootstrap/js/bootstrap.min.js'></script>
+
+  </html>
