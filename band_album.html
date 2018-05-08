@@ -9,50 +9,11 @@
           <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
           <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
           <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-        <script type="text/javascript" src="bower_components/angular/angular.js"></script>
-        <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  <style> 
-
-
-   body{
-
-   	    	padding-top: 70px;
-             background:lightgrey;
-   
-
-   }
-   p{
-    color: blue; 
-   }
-
-       h1{
-         text-align: left;
-}   
-h2{      color: red;
-         text-align: left;
-}
-table{   background-color:pink;
-
-}
-
-button{
-       background-color: pink;
-
-}
-ol{
-  background-color: pink;
-  background-position: center;
-}
-
-      footer{
-           padding-top: 5px;
-          background-color: #eee;
-          text-align: center;
-          height: 100px;
-}
-</style>
-</head>
+          <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+          <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+          <link rel="stylesheet" type="text/css" href="css/style.css">
+          <link rel="stylesheet" type="text/css" href="css/style2.css">
+  </head>
 <body>
   <nav class="navbar navbar-inverse navbar-fixed-top">    
     <div class='container'>
@@ -138,7 +99,7 @@ ol{
             </div>    
             <div class="col-md-6"> 
             <h2>The Very Best of The Monkees</h2>
-                <img src="Images/album2.jpg" width="70%"></br></br>   
+                <img class="grayscale" src="Images/album2.jpg" width="70%"></br></br>   
                 <a href="https://www.amazon.co.uk/Monkees/dp/B000024GAE"><img src="Images/amazon.png" width="35px"></a>
                 <a href="https://itunes.apple.com/gb/artist/the-monkees/id4512388"><img src="Images/itune.png" width="33px"></a>
                 </br>
@@ -195,21 +156,66 @@ ol{
                </div>
        <div class="row">
            <div class="col-md-3">
-              <img src="Images/cover.jpg">
+              <a href="myModal" data-toggle="modal" data-target="#myModal"><img src="images/cover.jpg"></a>
               <h4>The Greatest Hits</h4>
            </div>        
            <div class="col-md-3">
-              <img src="Images/cover1.jpg">
+              <div class="container1">
+                 <img src="images/cover1.jpg"  alt="Cover1" class="image">
+                 <div class="overlay">
+              <div class="text">The Monkees</div>
+           </div>
+            </div>
+
+              
            </div>
            <div class="col-md-3">
-              <img src="Images/cover2.png">
-              <h4>
+              <img class="img2" src="Images/cover2.png">
+              <p id="paraimage">Listen all the Monkees Hits and remind old years</p>
+              
            </div>
            <div class="col-md-3">
-              <img src="Images/cover3.jpg">
+              <a href="myModal" data-toggle="modal" data-target="#myModal1"><img src="images/cover3.jpg"></a>
               <h4>The Monkees Facebook Cover</h4>
            </div>
        </div>
+       <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">The Greatest Hits</h4>
+        </div>
+        <div class="modal-body">
+          <img src="images/cover.jpg" width="250px" height="250px">
+          <p> The Best songs of the Monkees. </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">The Greatest Hits</h4>
+        </div>
+        <div class="modal-body">
+          <img src="images/cover3.jpg" width="250px" height="250px">
+          <p> Discovery the Monkees on Facebook and check the events and new offers. </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
        <hr>
        <footer class="col-12">
           <p> Copyright</p>
@@ -221,13 +227,15 @@ ol{
                  </footer>
   </div>
   </body>
-<script src='http://code.jquery.com/jquery.min.js'></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type="text/javascript" src="dj_button.js"></script>
+
+<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+
 
  <!-- Scripts located at the bottom of the body to insure page is fully loaded before execution -->
-<script type="text/javascript" src="table_button.js"></script>
-<script type="text/javascript" src="list_button.js"></script>
-<script src='/bootstrap/js/bootstrap.min.js'></script>
+<script type="text/javascript" src="js/table_button.js"></script>
+<script type="text/javascript" src="js/imgpara.js"></script>
+
+<script type="text/javascript" src="js/list.js"></script>
+
 
   </html>

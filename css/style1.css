@@ -1,0 +1,31 @@
+
+/*    Style Index.html */
+
+body{
+
+   	    	padding-top: 70px;
+   			background:lightgrey;		
+
+   }
+   
+   
+
+       h1{
+	       text-align: center;
+         color: red;
+}   
+      footer{
+           padding-top: 5px;
+          background-color: #eee;
+          text-align: center;
+          height: 100px;
+}
+
+  
+     .para1{
+     	color: blue;
+     }
+        
+     
+}
+     

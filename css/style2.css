@@ -1,0 +1,87 @@
+                            
+/*    Style Album.html */
+
+body{
+
+   	    	padding-top: 70px;
+             background:lightgrey;
+   
+
+   }
+   p{
+    color: blue; 
+   }
+
+       h1{
+         text-align: left;
+}   
+h2{      color: red;
+         text-align: left;
+}
+table{   background-color:pink;
+
+}
+
+button{
+       background-color: pink;
+
+}
+
+ol{
+  background-color: pink;
+  background-position: center;
+}
+
+      footer{
+           padding-top: 5px;
+          background-color: #eee;
+          text-align: center;
+          height: 100px;
+}
+.container1 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 180%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right: 0;
+  background-color: red;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay {
+  width: 180%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+#paraimage{
+              font-weight: bold;
+
+              font-size: 20px;
+              color: red;
+}  
+
+.grayscale {-webkit-filter: grayscale(100%);filter: grayscale(100%);}
+

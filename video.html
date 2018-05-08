@@ -11,41 +11,8 @@
           <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
           <script type="text/javascript" src="bower_components/angular/angular.js"></script>
           <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  <style> 
-
-   body{
-
-   	    	padding-top: 70px;
-   			background:lightgrey;		
-
-   }
-
-       h1{
-	       text-align: center;
-         color: red;
-}  
-h2{
-  text-align: center;
-} 
-      footer{
-           padding-top: 5px;
-          background-color: #eee;
-          text-align: center;
-          height: 100px;
-}
-
-  
-     .para{
-     	color: blue;
-      text-align: center;
-     }
-        
-}
-  </style>
-
-
-
+          <link rel="stylesheet" type="text/css" href="css/style.css">
+          <link rel="stylesheet" type="text/css" href="css/style3.css">
 </head>
 
 <body>
@@ -75,7 +42,7 @@ h2{
 		<div class='container'>
 			<div class='row'>
 			<div class='col-md-6'>
-      <video width="570" height="500" controls>
+      <video width="100%" height="auto" controls>
       <source src="video1/TheMonkees.mp4" type="video/mp4">
       </video>
       <a href="https://www.amazon.co.uk/Monkees/dp/B000024GAE"><img src="Images/amazon.png" width="35px"></a>
@@ -119,7 +86,70 @@ And a homecoming queen.
       </div>
       </div>  
       <div class="row">
+      
       <div class="col-md-12">
+      <h3> The Monkees Dates and Events</h3>
+      <hr></hr>
+      <table width="80%">
+      <th>Date</th><th>Event</th><th>Time</th><th>Location</th><th>Info</th>
+      <tr>
+        <td><p>3 June 2018 </p></td>
+        <td><p class="para2">The Monkees present: Mike & Miky Show</p></td>
+        <td><p>8:00 Pm </p></td>
+        <td><p class="para2">City National Grove of Anaheim , Anaheim CA</p></td> 
+        <td><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">More Info</button></td>
+      </tr>
+      <tr>
+        <td><p> 6 June 2018</p></td>
+        <td><p class="para2">The Monkees present: Mike & Mike Show</p></td>
+        <td><p>7:30 Pm </p></td>
+        <td><p class="para2">Paramount Theatre Denver  , CO</p></td> 
+        <td><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">More Info</button></td>
+      </tr>
+      <tr>
+        <td><p> 12 June 2018</p></td>
+        <td><p class="para2">The Monkees present: Mike & Mike Show</p></td>
+        <td><p>8:00 Pm</p> </td>
+        <td><p class="para2">The Mountain Winery Saratoga , CA</p></td> 
+        <td><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">More Info</button></td>
+      </tr>
+      <tr>
+        <td><p>16 June 2018</p> </td>
+        <td><p class="para2">The Monkees present: Mike & Mike Show</p></td>
+        <td><p>7:00 Pm </p></td>
+        <td><p class="para2">The Miami Theatre  , Florida</p></td> 
+        <td><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">More Info</button></td>
+      </tr>  
+      <tr>
+        <td><p>21 June 2018</p> </td>
+        <td><p class="para2">The Monkees present: Mike & Mike Show</p></td>
+        <td><p>8:30 Pm </p></td>
+        <td><p class="para2">The New York Theatre  , NY</p></td> 
+        <td><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">More Info</button></td>
+      </tr>
+      </table>
+      <hr>
+      <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">The Tickets</h4>
+        </div>
+        <div class="modal-body">
+          <img src="images/ticket.jpg" width="150px" height="150px">
+          <p class="para"> Mike will play the best Hits of the Monkees. Don't miss </p>
+          <p class="para2"> Contact the Venue for the seats available. </p>
+          <h3>Buy Ticket</h3>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <hr>
       </div>
       </div>
       <footer class="col-12">
@@ -133,8 +163,7 @@ And a homecoming queen.
                  </footer>
     </div>
     </body>
-    <script src='http://code.jquery.com/jquery.min.js'></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
- <!-- Scripts located at the bottom of the body to insure page is fully loaded before execution -->
-<script src='/bootstrap/js/bootstrap.min.js'></script>
+    
+    <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+
 </html>
