@@ -2,34 +2,7 @@
 ## Overview
 ### Title The Monkees
 ## What Does it do ?
-<<<<<<< HEAD
-<<<<<<< HEAD
-This Website describes  the Monkee band and shows their albums songs and video clip.
-## Features
-- Index.html:
-     My Homepage shows the band history and  members of the band .
-- Album :
-     Albums and their songs
-- Media:
-     This page shows the video clip and the song's test lyrics 
-- Register :
-     This page shows the Newsletter Registation forms 
-     
-### Tech Used
-## Html5 Css3
-## Node js and Npm
-   - Angular  Framework
-   - Bower.json
-   -Package.json
-   - Bootstrap 3.3.7
- 
-- Javascript libraries: jquery
-
-
-=======
-    This Website describes the Monkee band and shows their albums songs and video clip.    
-=======
-    This Website describes the Monkee band and shows their albums songs and video clip.
+This Website describes  the Monkee band and shows their albums songs and video clip
     The Website provides the connection with Amazon Itune to buy the Monkees Songs or Albums  Online.
     There are also the connections with You Tube to listen the Monkees Songs  and the Social NetWork like Facebook and Instagram
     to became Fans and attend all the Events and Tributes.
@@ -120,11 +93,6 @@ This Website describes  the Monkee band and shows their albums songs and video c
 
     - Bootstrap 3.3.7
 
-<<<<<<< HEAD
-- Javascript libraries: jquery
->>>>>>> master
-=======
-    - Javascript libraries: jquery
->>>>>>> master
+   - Javascript libraries: jquery
 
 
