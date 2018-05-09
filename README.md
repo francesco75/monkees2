@@ -43,10 +43,10 @@
     All the jquery library work vell.
   - Final Testing is almost good   
 - Mozilla Firefox
-    The Website works perfect.
-    The navbar and all the links work vell.
-    The jquery library work well.
-- Final Testing is good.
+    -The Website works perfect.
+     The navbar and all the links work vell.
+     The jquery library work well.
+    - Final Testing is good.
 
 ## Testing Devices
 
