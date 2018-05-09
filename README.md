@@ -10,7 +10,7 @@ This Website describes  the Monkee band and shows their albums songs and video c
      I start to create the Web Pages writing in the paper after i used the text file to develop the text and focus different 
      points of my Website pages. I used another text file to report all the testing browsers
       and devices and after to write on the README.md.      
->>>>>>> master
+
 ## Features
 - Index.html:
      My Homepage shows the band history and members of the band with their careers.
