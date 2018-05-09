@@ -30,7 +30,7 @@
    The Navigation Bar works perfect.
    Final  Testig is good
 
--Internet Explorer   
+- Internet Explorer   
     - Message Script: Internet Explorer resctired from running scripts or Activex Controls.Button  Allow Block Content.
      All the pages rspond very vell and jquery library work vell after  push the button Allow Block Content.
      The Navigation Bar works perfect.
