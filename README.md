@@ -20,7 +20,7 @@
     Albums and their songs. 
 - Media: 
      This page shows the video clip and  the song's test lyrics with Dates and Events.
--Register :  
+- Register :  
      This page shows the Newsletter Registation forms
 # Testing
 
