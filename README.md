@@ -26,9 +26,9 @@
 
 ## Testing Browsers
 - Google 
-   All the pages respond very well and jquery library work very well.
-   The Navigation Bar works perfect.
-   Final  Testig is good
+   - All the pages respond very well and jquery library work very well.
+     The Navigation Bar works perfect.
+     Final  Testig is good
 
 - Internet Explorer   
     - Message Script: Internet Explorer resctired from running scripts or Activex Controls.Button  Allow Block Content.
@@ -80,7 +80,7 @@
        the following message "please, match the format requested" 
 ##   Testing Speed Website
     - Testing Pages
-      Mobile = Low 49/100
+      Mobile = Low 47/100
       Laptop = Medium 70/100      
                 
 # Tech Used
