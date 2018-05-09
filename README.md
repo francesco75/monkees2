@@ -2,15 +2,16 @@
 ## Overview
 ### Title The Monkees
 ## What Does it do ?
-This Website describes  the Monkee band and shows their albums songs and video clip
-    The Website provides the connection with Amazon Itune to buy the Monkees Songs or Albums  Online.
-    There are also the connections with You Tube to listen the Monkees Songs  and the Social NetWork like Facebook and Instagram
-    to became Fans and attend all the Events and Tributes.
+    This Website describes the Monkee band and shows their albums songs and video clip.
+    The Website provides the connection with Amazon Itune to buy the Monkees Songs or Albums Online.
+    There are also the connections with You Tube to listen the Monkees Songs  
+    and the Social NetWork like Facebook and Instagram
+    to become Fans and attend all the Events and Tributes.
 ## Starter
-     I start to create the Web Pages writing in the paper after i used the text file to develop the text and focus different 
-     points of my Website pages. I used another text file to report all the testing browsers
+     I start to create the Web Pages writing in the paper after i used the text file 
+     to develop the text and focus different points of my Website pages. 
+     I used another text file to report all the testing browsers
       and devices and after to write on the README.md.      
-
 ## Features
 - Index.html:
      My Homepage shows the band history and members of the band with their careers.
@@ -25,10 +26,11 @@ This Website describes  the Monkee band and shows their albums songs and video c
 
 ## Testing Browsers
 - Google 
-   All the pages respond very well and jquery library work very well.
-   The Navigation Bar works perfect.
- - Final  Testig is good
--Internet Explorer   
+   - All the pages respond very well and jquery library work very well.
+     The Navigation Bar works perfect.
+     Final  Testig is good
+
+- Internet Explorer   
     - Message Script: Internet Explorer resctired from running scripts or Activex Controls.Button  Allow Block Content.
      All the pages rspond very vell and jquery library work vell after  push the button Allow Block Content.
      The Navigation Bar works perfect.
@@ -66,7 +68,7 @@ This Website describes  the Monkee band and shows their albums songs and video c
     _ Desktop HIDPI Desktop MDPI   
        The testing is perfect
 
-   - Laptop Small  Large
+    - Laptop Small  Large
        The Testing is perfect
        All the pages respond very vell
        The navbar works vell and navigation is fast and flexible
@@ -76,12 +78,11 @@ This Website describes  the Monkee band and shows their albums songs and video c
        If I left the field empty i have the following message"Please , fill in this field".
        If I insert the different pattern password or email i have 
        the following message "please, match the format requested" 
-       
-
-
-
-
-         
+##   Testing Speed Website
+    - Testing Pages
+      Mobile = Low 47/100
+      Laptop = Medium 70/100      
+                
 # Tech Used
 ## Codec & Style
 - Html5 Css3
@@ -93,6 +94,7 @@ This Website describes  the Monkee band and shows their albums songs and video c
 
     - Bootstrap 3.3.7
 
-   - Javascript libraries: jquery
-
+    - Javascript libraries: jquery
+## Deployment
+    - Github
 
