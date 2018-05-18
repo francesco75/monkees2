@@ -43,32 +43,32 @@
     All the jquery library work vell.
   - Final Testing is almost good   
 - Mozilla Firefox
-    - The Website works perfect.
-      The navbar and all the links work vell.
-      The jquery library work well.
-- Final Testing is good.
+    -The Website works perfect.
+     The navbar and all the links work vell.
+     The jquery library work well.
+    - Final Testing is good.
 
 ## Testing Devices
 
-  ### Tech Used: Blist
+### Tech Used: Blisk
 
-    - Iphone 
+   - Iphone 
        The Testing is perfect.
        All the pages respond very vell
        The navbar works vell and navigation is fast and flexible.
-    - Ipad
+   - Ipad
         The testing is perfect
         All the pages respond very vell
        The navbar works vell and navigation is fast and flexible
-    - Desktop Xl
+   - Desktop Xl
        The Testing is perfect.
        All the pages respond very vell
        The navbar works vell and navigation is fast and flexible.
        The visual impact is dispersive
-    _ Desktop HIDPI Desktop MDPI   
+   - Desktop HIDPI Desktop MDPI   
        The testing is perfect
 
-    - Laptop Small  Large
+   - Laptop Small  Large
        The Testing is perfect
        All the pages respond very vell
        The navbar works vell and navigation is fast and flexible
@@ -88,13 +88,12 @@
 - Html5 Css3
 - Node js and Npm
 ## Bower Components
-    - Angular Framework
+  - Angular Framework
 
-    - Bower.json -Package.json
+  - Bower.json -Package.json
 
-    - Bootstrap 3.3.7
+  - Bootstrap 3.3.7
 
-    - Javascript libraries: jquery
+  - Javascript libraries: jquery
 ## Deployment
-    - Github
-
+ - Github
