@@ -25,6 +25,8 @@
 # Testing
 
 ## Testing Browsers
+- The Testing Browser tests  the website on the different browser and
+    checks the different like the picture size  responsive navbar and scripts jquery . 
 - Google 
    - All the pages respond very well and jquery library work very well.
      The Navigation Bar works perfect.
@@ -40,18 +42,20 @@
 - Microsoft Edge
   - All the pages work well but the pictures on the Index.html have the light symmetric
     The navbar has the differnt size but work well.
-    All the jquery library work vell.
+    All the jquery library works vell.
   - Final Testing is almost good   
 - Mozilla Firefox
     -The Website works perfect.
      The navbar and all the links work vell.
-     The jquery library work well.
+     The jquery library works well.
     - Final Testing is good.
 
-## Testing Devices
+## Testing Devices Responsive
 
 ### Tech Used: Blisk
-
+   - This Testing responsive is used to test the website with
+      the different devices and study the navbar reactive and the 
+      table audio and form
    - Iphone 
        The Testing is perfect.
        All the pages respond very vell
@@ -79,7 +83,10 @@
        If I insert the different pattern password or email i have 
        the following message "please, match the format requested" 
 ##   Testing Speed Website
-    - Testing Pages
+### PageSpeed Tools
+- This Testing tests the speed pages and optimization betweeen the Desktop
+      and Mobile checking almost the pages.
+- Testing Pages
       Mobile = Low 47/100
       Laptop = Medium 70/100      
                 
@@ -93,8 +100,18 @@
   - Bower.json -Package.json
 
   - Bootstrap 3.3.7
+      - Grid
+      - Navbar
+      - Table
 
   - Javascript libraries: jquery
 ## Deployment
  - Github
-
+     - Master: The main deployment
+     - Gh-pages: Deployment branch Website
+  ### Feature A
+  - Add bower Components: Add bower-components : bootstrap,  jquery
+  - Add project boilerplate : Add the  bower.json audio video
+  #### Feature B
+  - Final Commit: Last change on the code 
+  - Change Md : Last Change Readme.md      
