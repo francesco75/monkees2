@@ -84,9 +84,9 @@
        the following message "please, match the format requested" 
 ##   Testing Speed Website
 ### PageSpeed Tools
-    - This Testing tests the speed pages and optimization betweeen the Desktop
+- This Testing tests the speed pages and optimization betweeen the Desktop
       and Mobile checking almost the pages.
-    - Testing Pages
+- Testing Pages
       Mobile = Low 47/100
       Laptop = Medium 70/100      
                 
@@ -110,8 +110,8 @@
      - Master: The main deployment
      - Gh-pages: Deployment branch Website
   ### Feature A
-      - Add bower Components: Add bower-components : bootstrap,  jquery
-      - Add project boilerplate : Add the  bower.json audio video
+  - Add bower Components: Add bower-components : bootstrap,  jquery
+  - Add project boilerplate : Add the  bower.json audio video
   #### Feature B
-        - Final Commit: Last change on the code 
-        - Change Md : Last Change Readme.md      
+  - Final Commit: Last change on the code 
+  - Change Md : Last Change Readme.md      
