@@ -57,35 +57,47 @@
                 <form>
                                     
                   <legend>Registration</legend>
-                   
-                     <label for="fname" class="field">Name:</label>
-                     <input type="text" id="fname" required autofocus="on" placeholder="Insert Name" name="fname"/><br>
-                     <label for="fname" class="field">Surname:</label>  
-                     <input type="text" id="fname" required  placeholder="Insert Surname" name="fname"/><br>
-                     <label for="age" class="field">Age:</label>
-                     <input type="number" name="age" required placeholder="Insert Age" min"0" max="100" > <br>
+                    <div class="form-group">                  
+                     <label for="fname" >Name:</label>
+                     <input type="text" class="form-control" id="fname" required autofocus="on" placeholder="Insert Name" name="fname"/><br>
+                    </div> 
+                    <div class="form-group">
+                     <label for="fname" >Surname:</label>  
+                     <input type="text" class="form-control" id="fname" required  placeholder="Insert Surname" name="fname"/><br>
+                    </div>
+                    <div class="form-group"> 
+                     <label for="age" >Age:</label>
+                     <input type="number" class="form-control" name="age" required placeholder="Insert Age" min="0" max="100" > <br>
+                   </div>
+                   <div class="form-group">
                      <label>Gender:</label></br>
                      <input id="male" type="radio" name="gender" value="male" />
                      <label for="male">Male</label>
                      <input id="female" type="radio" name="gender" value="female" />
                      <label for="female">Female</label></br>
-                     <label for="password" class ="field">Password:</label>
-                     <input id="password" name="password" required placeholder="max 8 char alphanumeric" pattern="[0-9A-Za-z]{8}"   type="password"  />
-                     <br>
-                     <label for="email" class ="field">Email:</label>
-                     <input id="email" name="email"  required  placeholder="enter email" type="email" />
-                    
-                     <br>
-                     <label for="telephone" class ="field">Telephone:</label>
-                     <input id="telephone" required name="telephone"   type="number" placeholder="mobile number" pattern="[0-9]{10}" title="Mobile phone number expected beginning 07********" type="tel" //>
-                     <label for ="submit" class="field"></label>
+                   </div>
+                   <div class="form-group">  
+                     <label for="password" >Password:</label>
+                     <input id="password"  class="form-control" name="password" required placeholder="max 8 char alphanumeric" pattern="[0-9A-Za-z]{8}"   type="password"  />
+                   </div>  
+                     <div class="form-group">
+                     <label for="email" >Email:</label>
+                     <input id="email" class="form-control" name="email"  required  placeholder="enter email" type="email" />
+                    </div>
+                     <div class="form-group">
+                     <label for="telephone" >Telephone:</label>
+                     <input id="telephone" class="form-control"  required name="telephone"   type="number" placeholder="mobile number" pattern="[0-9]{10}" title="Mobile phone number expected beginning 07********" type="tel" //>
+                   </div>
+                   
+                     <label for ="submit" ></label>
                      <input type="submit" value="submit"/>
-                     
+                   
             </form> 
            </fieldset>
        </div>    
       </div>
       </div>
+    </div>
       <footer class="col-12">
           <p> Copyright</p>
           <p>@THe Monkees USA 1965/2017</p>
@@ -94,7 +106,7 @@
                 <a href="https://www.instagram.com/themonkees/"><img src="Images/th.jpg" width="20px"></a></li>
                 <a href="https://www.youtube.com/watch?v=xvqeSJlgaNk&list=RDxvqeSJlgaNk#t=11"><img src="Images/tube.jpg" width="35px"></a></li>
 
-                 </footer>
+        </footer>
     </div>
     </body>  
 
